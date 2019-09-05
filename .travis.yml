@@ -1,8 +1,7 @@
 # 指定构建脚本执行环境为nodejs
 language: node_js
 # nodejs版本
-node_js:
-    - "10.15.3"
+node_js: stable
 # Cache dir config
 # 缓存设置的文件或者目录
 cache: false
@@ -11,9 +10,9 @@ sudo: required
 # Install scripts
 # 构建前下载依赖
 install:
-    - yarn
+    - npm install
 # script: # 构建主要要执行的脚本
-script: yarn docs:build
+script: npm run docs:build
 # After_script
 # 构建结束要执行的脚本
 #--force 就能强制覆盖远程仓库
@@ -38,7 +37,7 @@ notifications:
 
 env:
     global:
-        - GH_REF=git@github.com:grasilife/vue-design.git
+        - GH_REF=github.com/grasilife/vue-design.git
           #指定分支，只有指定的分支提交时才会运行脚本
 branches:
     only:
