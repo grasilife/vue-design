@@ -3,7 +3,8 @@ const path = require("path");
 function resolve(dir) {
   return path.join(__dirname, dir);
 }
-
+const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
+  .BundleAnalyzerPlugin;
 const port = 9527; // dev port
 
 // All configuration item explanations can be find in https://cli.vuejs.org/config/
@@ -41,6 +42,13 @@ module.exports = {
     }
   },
   chainWebpack: config => {
+    if (process.env.IS_ANALYZ) {
+      config.plugin("webpack-report").use(BundleAnalyzerPlugin, [
+        {
+          analyzerMode: "static"
+        }
+      ]);
+    }
     config.module
       .rule("vue")
       .test(/\.vue$/)
