@@ -1,7 +1,3 @@
----
-sidebarDepth: 0
----
-
 # 介绍
 
 设计价值观为 vue-designer 的设计者以及基于 vue-designer 进行产品设计的设计者，提供评价设计好坏的内在标准，并提供有效的设计实践所遵循的规则。同时，它启示并激发了设计原则和设计模式，为具体的设计问题提供向导和一般解决方案。
@@ -12,7 +8,7 @@ sidebarDepth: 0
 
 在『设计价值观』的坚持上，vue-designer 有两点与众不同：
 
-## 自然
+## 设计价值观:自然
 
 <div>
   <img src="https://gw.alipayobjects.com/zos/rmsportal/cdaxgaTMQCGTqjdlwwgt.png" alt="自然" />
@@ -25,7 +21,7 @@ sidebarDepth: 0
 
 > 想了解自然价值观的前世今生，[请移步至专栏](https://zhuanlan.zhihu.com/p/44809866)。
 
-## 确定
+## 设计价值观:确定
 
 <div>
   <img src="https://gw.alipayobjects.com/zos/rmsportal/ZxgRAMzXNrxHTcvMLchq.png" alt="确定" />

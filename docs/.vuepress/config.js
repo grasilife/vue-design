@@ -156,14 +156,9 @@ module.exports = {
             "/guide/",
             "/guide/installation",
             {
-              title: "基础",
+              title: "脚手架",
               collapsable: false,
-              children: [
-                "/guide/prototyping",
-                "/guide/creating-a-project",
-                "/guide/plugins-and-presets",
-                "/guide/cli-service"
-              ]
+              children: ["/guide/cli-service"]
             },
             {
               title: "开发",
