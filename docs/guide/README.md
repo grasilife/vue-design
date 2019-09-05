@@ -4,51 +4,35 @@ sidebarDepth: 0
 
 # 介绍
 
-<Bit/>
-::: warning 警告
-这份文档是对应 `@vue/cli` **3.x** 版本的。老版本的 `vue-cli` 文档请移步[这里](https://github.com/vuejs/vue-cli/tree/v2#vue-cli--)。
-:::
+设计价值观为 vue-designer 的设计者以及基于 vue-designer 进行产品设计的设计者，提供评价设计好坏的内在标准，并提供有效的设计实践所遵循的规则。同时，它启示并激发了设计原则和设计模式，为具体的设计问题提供向导和一般解决方案。
 
-Vue CLI 是一个基于 Vue.js 进行快速开发的完整系统，提供：
+<div>
+  <img src="https://gw.alipayobjects.com/zos/rmsportal/bIJZFjriQqeMPYyUkSev.png" alt="总概" />
+</div>
 
-- 通过 `@vue/cli` 搭建交互式的项目脚手架。
-- 通过 `@vue/cli` + `@vue/cli-service-global` 快速开始零配置原型开发。
-- 一个运行时依赖 (`@vue/cli-service`)，该依赖：
-  - 可升级；
-  - 基于 webpack 构建，并带有合理的默认配置；
-  - 可以通过项目内的配置文件进行配置；
-  - 可以通过插件进行扩展。
-- 一个丰富的官方插件集合，集成了前端生态中最好的工具。
-- 一套完全图形化的创建和管理 Vue.js 项目的用户界面。
+在『设计价值观』的坚持上，vue-designer 有两点与众不同：
 
-Vue CLI 致力于将 Vue 生态中的工具基础标准化。它确保了各种构建工具能够基于智能的默认配置即可平稳衔接，这样你可以专注在撰写应用上，而不必花好几天去纠结配置的问题。与此同时，它也为每个工具提供了调整配置的灵活性，无需 eject。
+## 自然
 
-## 该系统的组件
+<div>
+  <img src="https://gw.alipayobjects.com/zos/rmsportal/cdaxgaTMQCGTqjdlwwgt.png" alt="自然" />
+</div>
 
-Vue CLI 有几个独立的部分——如果你看到了我们的[源代码](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue)，你会发现这个仓库里同时管理了多个单独发布的包。
+作为一份子，自然界的方方面面都会对用户行为产生深远影响，设计者应该从其中汲取灵感，并运用到当下的设计工作中。我们已做了部分探索，并将追求『自然』作为我们未来持之以恒的方向。
 
-### CLI
+- 在行为的执行中，利用[行为分析](https://zhuanlan.zhihu.com/p/41952711)、人工智能、[传感器](https://zhuanlan.zhihu.com/p/52648777)、[元数据](https://zhuanlan.zhihu.com/p/43613398)等一系列方式，辅助用户有效决策、减少用户额外操作，从而节省用户脑力和体力，让人机交互行为更自然。
+- 在感知和认知中，视觉系统扮演着最重要的角色，通过提炼自然界中的客观规律并运用到界面设计中，从而创建更有层次产品体验；同时，适时加入听觉系统、触觉系统等，创建更多维、更真实的产品体验。详见视觉语言
 
-CLI (`@vue/cli`) 是一个全局安装的 npm 包，提供了终端里的 `vue` 命令。它可以通过 `vue create` 快速创建一个新项目的脚手架，或者直接通过 `vue serve` 构建新想法的原型。你也可以通过 `vue ui` 通过一套图形化界面管理你的所有项目。我们会在接下来的指南中逐章节深入介绍。
+> 想了解自然价值观的前世今生，[请移步至专栏](https://zhuanlan.zhihu.com/p/44809866)。
 
-### CLI 服务
+## 确定
 
-CLI 服务 (`@vue/cli-service`) 是一个开发环境依赖。它是一个 npm 包，局部安装在每个 `@vue/cli` 创建的项目中。
+<div>
+  <img src="https://gw.alipayobjects.com/zos/rmsportal/ZxgRAMzXNrxHTcvMLchq.png" alt="确定" />
+</div>
 
-CLI 服务是构建于 [webpack](http://webpack.js.org/) 和 [webpack-dev-server](https://github.com/webpack/webpack-dev-server) 之上的。它包含了：
+『设计者』需要做出更好的设计决策，给予研发团队一种高确定性、低熵值的研发状态。同时，不同设计者在充分理解业务述求后，基于 vue-designer 体系都会有相同且符合当前业务特性的设计产出。
 
-- 加载其它 CLI 插件的核心服务；
-- 一个针对绝大部分应用优化过的内部的 webpack 配置；
-- 项目内部的 `vue-cli-service` 命令，提供 `serve`、`build` 和 `inspect` 命令。
-
-如果你熟悉 [create-react-app](https://github.com/facebookincubator/create-react-app) 的话，`@vue/cli-service` 实际上大致等价于 `react-scripts`，尽管功能集合不一样。
-
-[CLI 服务](./cli-service.md)章节涵盖了它的具体用法。
-
-### CLI 插件
-
-CLI 插件是向你的 Vue 项目提供可选功能的 npm 包，例如 Babel/TypeScript 转译、ESLint 集成、单元测试和 end-to-end 测试等。Vue CLI 插件的名字以 `@vue/cli-plugin-` (内建插件) 或 `vue-cli-plugin-` (社区插件) 开头，非常容易使用。
-
-当你在项目内部运行 `vue-cli-service` 命令时，它会自动解析并加载 `package.json` 中列出的所有 CLI 插件。
-
-插件可以作为项目创建过程的一部分，或在后期加入到项目中。它们也可以被归成一组可复用的 preset。我们会在[插件和 preset](./plugins-and-presets.md) 章节进行深入讨论。
+- **保持克制：** 能做，但想清楚了不做。设计者应当聚焦在最有价值产品功能打磨，并用尽可能少的设计元素将其表达。正如 Antoine de St.Exupery 所说：完美不在于无以复加，而在于无可删减，万事莫不如此。
+- **面向对象的方法：** 探索设计规律，并将其抽象成『对象』，增强界面设计的灵活性和可维护性，同时也减少『设计者』的主观干扰，从而降低系统的不确定性。例如：色值换算、间距排版。
+- **模块化设计：** 将复杂或者重复出现的局部封装成模块，提供有限接口与其他模块互动，最终全面减少系统的复杂度，进而增进可靠性以及可维护性。设计者可运用现有的组件/模板或者自行抽象可复用的组件/模板，节约无谓的设计且保持系统一致性，让『设计者』把创造力专注在最需要的地方。
