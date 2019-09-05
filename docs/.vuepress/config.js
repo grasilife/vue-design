@@ -92,7 +92,7 @@ module.exports = {
             link: "/config/"
           },
           {
-            text: "插件开发指南",
+            text: "脚手架开发",
             items: [
               { text: "插件开发指南", link: "/dev-guide/plugin-dev.md" },
               { text: "UI 插件信息", link: "/dev-guide/ui-info.md" },
@@ -169,14 +169,12 @@ module.exports = {
                 "/guide/css",
                 "/guide/webpack",
                 "/guide/mode-and-env",
-                "/guide/build-targets",
-                "/guide/deployment"
+                "/guide/build-targets"
               ]
             }
           ],
           "/componentsDocs/": [
             "/componentsDocs/",
-            "/componentsDocs/installation",
             {
               title: "组件",
               collapsable: false,

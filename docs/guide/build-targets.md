@@ -1,4 +1,4 @@
-# 构建目标
+# umd 构建 ui 库
 
 当你运行 `vue-cli-service build` 时，你可以通过 `--target` 选项指定不同的构建目标。它允许你将相同的源代码根据不同的用例生成不同的构建。
 
@@ -20,7 +20,6 @@
 ::: tip 注意对 Vue 的依赖
 在库模式中，Vue 是*外置的*。这意味着包中不会有 Vue，即便你在代码中导入了 Vue。如果这个库会通过一个打包器使用，它将尝试通过打包器以依赖的方式加载 Vue；否则就会回退到一个全局的 `Vue` 变量。
 :::
-
 
 你可以通过下面的命令将一个单独的入口构建为一个库：
 
@@ -55,14 +54,14 @@ dist/myLib.css           0.33 kb                  0.23 kb
 
 然而，当你使用一个 `.js` 或 `.ts` 文件作为入口时，它可能会包含具名导出，所以库会暴露为一个模块。也就是说你的库必须在 UMD 构建中通过 `window.yourLib.default` 访问，或在 CommonJS 构建中通过 `const myLib = require('mylib').default` 访问。如果你没有任何具名导出并希望直接暴露默认导出，你可以在 `vue.config.js` 中使用以下 webpack 配置：
 
-``` js
+```js
 module.exports = {
   configureWebpack: {
     output: {
-      libraryExport: 'default'
+      libraryExport: "default"
     }
   }
-}
+};
 ```
 
 ## Web Components 组件
@@ -89,7 +88,7 @@ vue-cli-service build --target wc --name my-element [entry]
 
 这个模式允许你的组件的使用者以一个普通 DOM 元素的方式使用这个 Vue 组件：
 
-``` html
+```html
 <script src="https://unpkg.com/vue"></script>
 <script src="path/to/my-element.js"></script>
 
@@ -128,7 +127,7 @@ dist/foo.1.js        5.24 kb                     1.64 kb
 
 现在用户在该页面上只需要引入 Vue 和这个入口文件即可：
 
-``` html
+```html
 <script src="https://unpkg.com/vue"></script>
 <script src="path/to/foo.min.js"></script>
 
