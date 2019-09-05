@@ -7,13 +7,13 @@ module.exports = {
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Vue CLI",
-      description: "🛠️ Vue.js 开发的标准工具"
+      title: "VUE DESIGN",
+      description: "🛠️ Vue.js设计语言"
     },
     "/en/": {
       lang: "en-US",
-      title: "Vue CLI",
-      description: "🛠️ Standard Tooling for Vue.js Development"
+      title: "VUE DESIGN",
+      description: "🛠️ Vue.js设计语言"
     }
   },
   head: [
@@ -63,7 +63,7 @@ module.exports = {
   },
   theme: "@vuepress/theme-vue",
   themeConfig: {
-    repo: "vuejs/vue-cli",
+    repo: "grasilife/vue-design",
     docsDir: "docs",
     docsBranch: "docs",
     editLinks: true,
@@ -147,7 +147,8 @@ module.exports = {
           },
           {
             text: "更新记录",
-            link: "https://github.com/vuejs/vue-cli/blob/dev/CHANGELOG.md"
+            link:
+              "https://github.com/grasilife/vue-design/blob/master/CHANGELOG.md"
           }
         ],
         sidebar: {
@@ -221,103 +222,7 @@ module.exports = {
         label: "English",
         selectText: "Languages",
         lastUpdated: "Last Updated",
-        editLinkText: "Edit this page on GitHub",
-        nav: [
-          {
-            text: "Guide",
-            link: "/en/guide/"
-          },
-          {
-            text: "Config Reference",
-            link: "/en/config/"
-          },
-          {
-            text: "Plugin Dev Guide",
-            items: [
-              { text: "Plugin Dev Guide", link: "/en/dev-guide/plugin-dev.md" },
-              { text: "UI Plugin Info", link: "/en/dev-guide/ui-info.md" },
-              { text: "UI Plugin API", link: "/en/dev-guide/ui-api.md" },
-              {
-                text: "UI Localization",
-                link: "/en/dev-guide/ui-localization.md"
-              }
-            ]
-          },
-          {
-            text: "Plugins",
-            link: "/en/core-plugins/"
-          },
-          {
-            text: "Changelog",
-            link: "https://github.com/vuejs/vue-cli/blob/dev/CHANGELOG.md"
-          }
-        ],
-        sidebar: {
-          "/en/guide/": [
-            "/en/guide/",
-            "/en/guide/installation",
-            {
-              title: "Basics",
-              collapsable: false,
-              children: [
-                "/en/guide/prototyping",
-                "/en/guide/creating-a-project",
-                "/en/guide/plugins-and-presets",
-                "/en/guide/cli-service"
-              ]
-            },
-            {
-              title: "Development",
-              collapsable: false,
-              children: [
-                "/en/guide/browser-compatibility",
-                "/en/guide/html-and-static-assets",
-                "/en/guide/css",
-                "/en/guide/webpack",
-                "/en/guide/mode-and-env",
-                "/en/guide/build-targets",
-                "/en/guide/deployment",
-                "/en/guide/troubleshooting"
-              ]
-            }
-          ],
-          "/en/dev-guide/": [
-            "/en/dev-guide/plugin-dev.md",
-            {
-              title: "API reference",
-              collapsable: false,
-              children: [
-                "/en/dev-guide/plugin-api.md",
-                "/en/dev-guide/generator-api.md"
-              ]
-            },
-            {
-              title: "UI Development",
-              collapsable: false,
-              children: [
-                "/en/dev-guide/ui-info.md",
-                "/en/dev-guide/ui-api.md",
-                "/en/dev-guide/ui-localization.md"
-              ]
-            }
-          ],
-          "/en/core-plugins/": [
-            {
-              title: "Core Vue CLI Plugins",
-              collapsable: false,
-              children: [
-                "/en/core-plugins/babel.md",
-                "/en/core-plugins/typescript.md",
-                "/en/core-plugins/eslint.md",
-                "/en/core-plugins/pwa.md",
-                "/en/core-plugins/unit-jest.md",
-                "/en/core-plugins/unit-mocha.md",
-                "/en/core-plugins/e2e-cypress.md",
-                "/en/core-plugins/e2e-nightwatch.md"
-              ]
-            }
-          ]
-        }
+        editLinkText: "Edit this page on GitHub"
       }
     }
   },
