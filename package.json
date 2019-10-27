@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/grasilife/vue-design/issues"
   },
-  "homepage": "https://github.com/grasilife/vue-design/blob/master/README.md",
+  "homepage": "https://github.com/grasilife/vue-design",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
