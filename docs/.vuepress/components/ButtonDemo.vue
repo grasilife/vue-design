@@ -1,3 +1,10 @@
+<!--
+ * @Author: 付国强
+ * @Date: 2019-09-05 21:46:07
+ * @LastEditors: 付国强
+ * @LastEditTime: 2019-10-27 17:24:30
+ * @Description:
+ -->
 <template>
   <div class="demo">
     <h2>📌 简单用法</h2>
@@ -41,8 +48,7 @@ export default {
   },
   data() {
     return {
-      codeStr: `<el-button>默认按钮</el-button>
-        `
+      codeStr: `<el-button>默认按钮</el-button>`
     };
   }
 };

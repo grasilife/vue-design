@@ -1,9 +1,17 @@
+/*
+ * @Author: 付国强
+ * @Date: 2019-09-05 21:46:07
+ * @LastEditors: 付国强
+ * @LastEditTime: 2019-10-27 17:33:21
+ * @Description:
+ */
 const path = require("path");
 function resolve(dir) {
   return path.join(__dirname, dir);
 }
 module.exports = {
   port: 8081,
+  base: "/vue-design/",
   locales: {
     "/": {
       lang: "zh-CN",
