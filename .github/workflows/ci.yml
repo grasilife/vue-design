@@ -1,4 +1,4 @@
-name: GitHub Actions Build Vuepress Demo
+﻿name: GitHub Actions Build Vuepress Demo
 on:
   push:
     branches:
