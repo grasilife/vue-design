@@ -37,5 +37,5 @@ npm install vue-designer --save
 ```
 
 ```bash
-github action 部署
+访问 https://grasilife.github.io/vue-design/
 ```
