@@ -1,11 +1,18 @@
+<!--
+ * @Author: 付国强
+ * @Date: 2019-09-05 21:46:08
+ * @LastEditors: 付国强
+ * @LastEditTime: 2019-10-27 18:23:47
+ * @Description:
+ -->
 <template>
   <button
     class="wheel-button"
     :class="{ [`icon-${iconPosition}`]: true }"
     @click="$emit('click')"
   >
-    <w-icon class="icon" v-if="icon && !loading" :name="icon"></w-icon>
-    <w-icon class="loading icon" v-if="loading" name="loading"></w-icon>
+    <!-- <w-icon class="icon" v-if="icon && !loading" :name="icon"></w-icon>
+    <w-icon class="loading icon" v-if="loading" name="loading"></w-icon> -->
     <div class="wheel-button-content">
       <slot />
     </div>
@@ -13,11 +20,11 @@
 </template>
 
 <script>
-import Icon from "../icon/icon";
+// import Icon from "../icon/icon";
 export default {
   name: "WheelButton",
   components: {
-    "w-icon": Icon
+    // "w-icon": Icon
   },
   props: {
     icon: {},

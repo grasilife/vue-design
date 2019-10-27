@@ -33,7 +33,7 @@
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs -c"
   },
   "peerDependencies": {
     "vue": "^2.5.2"
