@@ -37,5 +37,5 @@ npm install vue-designer --save
 ```
 
 ```bash
-github action
+github action 部署
 ```
