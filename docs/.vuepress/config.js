@@ -2,7 +2,7 @@
  * @Author: 付国强
  * @Date: 2019-09-05 21:46:07
  * @LastEditors: 付国强
- * @LastEditTime: 2019-10-28 22:48:16
+ * @LastEditTime: 2019-10-28 22:56:34
  * @Description:
  */
 const path = require("path");
@@ -186,11 +186,14 @@ module.exports = {
             }
           ],
           "/design/": [
-            "/design/",
             {
               title: "Vue Design",
               collapsable: false,
-              children: ["/design/values.zh-CN", "/design/cases.zh-CN"]
+              children: [
+                "/design/",
+                "/design/values.zh-CN",
+                "/design/cases.zh-CN"
+              ]
             },
             {
               title: "原则",
