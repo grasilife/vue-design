@@ -1,19 +1,19 @@
 name: GitHub Actions Build Vuepress Demo
 on:
-  push:
-    branches:
-      - master
+    push:
+        branches:
+            - master
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@master
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@master
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@2.0.3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: docs/.vuepress/dist
-          BUILD_SCRIPT: rm -rf ./node_modules/ && npm install && npm run docs:build
+            - name: Deploy to GitHub Pages
+              uses: JamesIves/github-pages-deploy-action@2.0.3
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  BRANCH: gh-pages
+                  FOLDER: docs/.vuepress/dist
+                  BUILD_SCRIPT: rm -rf ./node_modules/ && rm -rf ./docs/.vuepress/dist/ && rm -rf ./dist/ && npm install && npm run docs:build
