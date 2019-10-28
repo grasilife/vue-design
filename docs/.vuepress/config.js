@@ -2,7 +2,7 @@
  * @Author: 付国强
  * @Date: 2019-09-05 21:46:07
  * @LastEditors: 付国强
- * @LastEditTime: 2019-10-28 19:00:02
+ * @LastEditTime: 2019-10-28 21:26:43
  * @Description:
  */
 const path = require("path");
@@ -92,6 +92,10 @@ module.exports = {
             link: "/guide/"
           },
           {
+            text: "设计语言",
+            link: "/design/"
+          },
+          {
             text: "组件",
             link: "/componentsDocs/"
           },
@@ -178,6 +182,72 @@ module.exports = {
                 "/guide/webpack",
                 "/guide/mode-and-env",
                 "/guide/build-targets"
+              ]
+            }
+          ],
+          "/design/": [
+            "/design/",
+            {
+              title: "Vue Design",
+              collapsable: false,
+              children: ["/design/values.zh-CN", "/design/cases.zh-CN"]
+            },
+            {
+              title: "原则",
+              collapsable: false,
+              children: [
+                "/design/proximity.zh-CN",
+                "/design/alignment.zh-CN",
+                "/design/contrast.zh-CN",
+                "/design/repetition.zh-CN",
+                "/design/direct.zh-CN",
+                "/design/stay.zh-CN",
+                "/design/lightweight.zh-CN",
+                "/design/invitation.zh-CN",
+                "/design/transition.zh-CN",
+                "/design/reaction.zh-CN"
+              ]
+            },
+            {
+              title: "视觉",
+              collapsable: false,
+              children: [
+                "/design/colors.zh-CN",
+                "/design/layout.zh-CN",
+                "/design/font.zh-CN",
+                "/design/icon.zh-CN"
+              ]
+            },
+            {
+              title: "模式",
+              collapsable: false,
+              children: [
+                "/design/overview.zh-CN",
+                "/design/copywriting.zh-CN",
+                "/design/navigation.zh-CN",
+                "/design/data-entry.zh-CN",
+                "/design/data-display.zh-CN",
+                "/design/feedback.zh-CN"
+              ]
+            },
+            {
+              title: "可视化",
+              collapsable: false,
+              children: ["/design/visual.zh-CN"]
+            },
+            {
+              title: "动效",
+              collapsable: false,
+              children: ["/design/motion.zh-CN"]
+            },
+            {
+              title: "其他",
+              collapsable: false,
+              children: [
+                "/design/download.zh-CN",
+                "/design/article.zh-CN",
+                "/design/reference.zh-CN",
+                "/design/work-with-us.zh-CN"
               ]
             }
           ],
