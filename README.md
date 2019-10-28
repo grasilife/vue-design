@@ -4,13 +4,13 @@
   </a>
 </p>
 
-<h1 align="center">Gntd</h1>
+<h1 align="center">VUE DESIGN</h1>
 
 <div align="center">
 
 一套企业级的 UI 设计语言。
 
-[![Build Status](https://www.travis-ci.org/grasilife/vue-design.svg?branch=master)](https://www.travis-ci.org/grasilife/vue-design) [![npm package](https://img.shields.io/npm/v/antd.svg?style=flat-square)](https://www.npmjs.com/package/vue-design)
+[![CI Status](https://github.com/ant-design/ant-design/workflows/Node%20CI/badge.svg) ![npm package](https://img.shields.io/npm/v/antd.svg?style=flat-square)](https://www.npmjs.com/package/vue-design)
 
 </div>
 
@@ -34,8 +34,4 @@
 
 ```bash
 npm install vue-designer --save
-```
-
-```bash
-访问 https://grasilife.github.io/vue-design/
 ```
