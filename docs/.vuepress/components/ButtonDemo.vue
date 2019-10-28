@@ -2,7 +2,7 @@
  * @Author: 付国强
  * @Date: 2019-09-05 21:46:07
  * @LastEditors: 付国强
- * @LastEditTime: 2019-10-27 17:24:30
+ * @LastEditTime: 2019-10-28 11:39:25
  * @Description:
  -->
 <template>
@@ -34,22 +34,27 @@
 </template>
 
 <script>
-import WButton from "../../../src/components/Button/Button";
-import WButtonGroup from "../../../src/components/Button/ButtonGroup";
-import WIcon from "../../../src/components/Icon/Icon";
+// import WButton from "../../../src/components/Button/Button";
+// import WButtonGroup from "../../../src/components/Button/ButtonGroup";
+// import WIcon from "../../../src/components/Icon/Icon";
 import mixin from "../mixin";
 export default {
   name: "demo",
   mixins: [mixin],
   components: {
-    WButton,
-    WIcon,
-    WButtonGroup
+    // WButton,
+    // WIcon,
+    // WButtonGroup
   },
   data() {
     return {
       codeStr: `<el-button>默认按钮</el-button>`
     };
+  },
+  mounted() {
+    // import("./lib-that-access-window-on-import").then(module => {
+    //   //   this.dynamicComponent = module.default;
+    // });
   }
 };
 </script>
