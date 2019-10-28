@@ -2,7 +2,7 @@
  * @Author: 付国强
  * @Date: 2019-09-05 21:46:07
  * @LastEditors: 付国强
- * @LastEditTime: 2019-10-28 22:56:34
+ * @LastEditTime: 2019-10-28 23:07:08
  * @Description:
  */
 const path = require("path");
@@ -88,12 +88,12 @@ module.exports = {
         editLinkText: "在 GitHub 上编辑此页",
         nav: [
           {
-            text: "指南",
-            link: "/guide/"
-          },
-          {
             text: "设计语言",
             link: "/design/"
+          },
+          {
+            text: "前端架构",
+            link: "/guide/"
           },
           {
             text: "组件",
@@ -164,27 +164,6 @@ module.exports = {
           }
         ],
         sidebar: {
-          "/guide/": [
-            "/guide/",
-            "/guide/installation",
-            {
-              title: "脚手架",
-              collapsable: false,
-              children: ["/guide/cli-service"]
-            },
-            {
-              title: "开发",
-              collapsable: false,
-              children: [
-                "/guide/browser-compatibility",
-                "/guide/html-and-static-assets",
-                "/guide/css",
-                "/guide/webpack",
-                "/guide/mode-and-env",
-                "/guide/build-targets"
-              ]
-            }
-          ],
           "/design/": [
             {
               title: "Vue Design",
@@ -251,6 +230,27 @@ module.exports = {
                 "/design/article.zh-CN",
                 "/design/reference.zh-CN",
                 "/design/work-with-us.zh-CN"
+              ]
+            }
+          ],
+          "/guide/": [
+            "/guide/",
+            "/guide/installation",
+            {
+              title: "脚手架",
+              collapsable: false,
+              children: ["/guide/cli-service"]
+            },
+            {
+              title: "开发",
+              collapsable: false,
+              children: [
+                "/guide/browser-compatibility",
+                "/guide/html-and-static-assets",
+                "/guide/css",
+                "/guide/webpack",
+                "/guide/mode-and-env",
+                "/guide/build-targets"
               ]
             }
           ],

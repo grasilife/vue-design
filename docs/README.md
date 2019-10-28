@@ -2,7 +2,7 @@
 home: true
 heroImage: /favicon.png
 actionText: 起步 →
-actionLink: /guide/
+actionLink: /design/
 features:
   - title: 指南
     details: 了解设计指南，帮助产品设计人员搭建逻辑清晰、结构合理且高效易用的产品
