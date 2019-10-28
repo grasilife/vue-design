@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "eca6d6c98eecec105b0e64c210360540"
+    "revision": "438d73df2af18686adb11d74cd8a43f6"
   },
   {
-    "url": "assets/css/0.styles.163956fd.css",
-    "revision": "b62169f285736b2fd5ce2ef3b4d2ed46"
+    "url": "assets/css/0.styles.f58a96c3.css",
+    "revision": "a65533e7203e05accc02f51000413951"
   },
   {
     "url": "assets/fonts/element-icons.535877f5.woff",
@@ -230,8 +230,8 @@ self.__precacheManifest = [
     "revision": "e64be5244cd7b7cd0805babd72679d26"
   },
   {
-    "url": "assets/js/app.f7ad4c4e.js",
-    "revision": "c4828125a02726700648db14411416f1"
+    "url": "assets/js/app.8e8fbf8f.js",
+    "revision": "6d7481b2a7bfaf993516ee304cdcca29"
   },
   {
     "url": "assets/js/vendors~docsearch.62a5ee3d.js",
@@ -251,15 +251,15 @@ self.__precacheManifest = [
   },
   {
     "url": "componentsDocs/button.html",
-    "revision": "8d2af38f509ae9851320c802c75a82d8"
+    "revision": "8dbecac0688693f572ca681a3deaffd2"
   },
   {
     "url": "componentsDocs/index.html",
-    "revision": "b356e008a3d71819f0b8520acf5a4863"
+    "revision": "184bc077e4c0c35ca8815d640d7ae9eb"
   },
   {
     "url": "componentsDocs/installation.html",
-    "revision": "23852ef615a59435c9192d44fadb9afc"
+    "revision": "be7e1804142169ef0a56c5e2bd08aed2"
   },
   {
     "url": "config-ui.png",
@@ -267,51 +267,51 @@ self.__precacheManifest = [
   },
   {
     "url": "config/index.html",
-    "revision": "9a240a1340e4b8754cf49b3b01d8b44b"
+    "revision": "2054e06c4e917645e52524b4ebb7f592"
   },
   {
     "url": "core-plugins/babel.html",
-    "revision": "9fe3ec33fdecacf5f496ce1f8bb0592b"
+    "revision": "646cb73e75ce0dafdfa9fa379dc8c767"
   },
   {
     "url": "core-plugins/e2e-cypress.html",
-    "revision": "f42d7cd630a0368aa22420e4cb999d1d"
+    "revision": "57dbeaa19c7abe60bc3b03aaed6bb28a"
   },
   {
     "url": "core-plugins/e2e-nightwatch.html",
-    "revision": "d65bd65f4c909c9a55016772cbf7ec7f"
+    "revision": "70fde467f33ff6e7863c362ce2548398"
   },
   {
     "url": "core-plugins/eslint.html",
-    "revision": "aae0e52fcdeb2bd41cf4e148aad64dd0"
+    "revision": "63a5774813ce773016a6024eb7f23b29"
   },
   {
     "url": "core-plugins/index.html",
-    "revision": "40d7723e71ab7b181940241a4d748efa"
+    "revision": "bd95757cd4fa8387f66954a9a29ca0cd"
   },
   {
     "url": "core-plugins/pwa.html",
-    "revision": "ca1a1a55ef05635f7a02f667b04e6366"
+    "revision": "1967075f93dd3a0a20cba1be807ffa2d"
   },
   {
     "url": "core-plugins/router.html",
-    "revision": "b28e5d7095960a896266e1d5dbc9f21b"
+    "revision": "51d7b7cd5ac7c82b3d8f84de0d92a028"
   },
   {
     "url": "core-plugins/typescript.html",
-    "revision": "87289da6298a4f84e05475e581bf0c32"
+    "revision": "74cbba86bb0174e0d401a34a918bd696"
   },
   {
     "url": "core-plugins/unit-jest.html",
-    "revision": "b2bb020a6b990041ef24b115e3bc1f36"
+    "revision": "27c7644fe44664aa9008c979b80dac63"
   },
   {
     "url": "core-plugins/unit-mocha.html",
-    "revision": "2c4b4f7fe1f8a5e4310f18e5a2465873"
+    "revision": "349d68008ee4dc0fcec2f433722c3945"
   },
   {
     "url": "core-plugins/vuex.html",
-    "revision": "6fb3096b749f48d8814b2f4b0cb3e70c"
+    "revision": "0cbfd3b8fe03706c75abf366c92525b7"
   },
   {
     "url": "custom-view.png",
@@ -319,27 +319,27 @@ self.__precacheManifest = [
   },
   {
     "url": "dev-guide/generator-api.html",
-    "revision": "7c244b5cd6eb848c4da86ce5c6bb6164"
+    "revision": "b291ba332660814666fe9a5d87209911"
   },
   {
     "url": "dev-guide/plugin-api.html",
-    "revision": "b677da4f996982b315f7f867f4bcb942"
+    "revision": "0b48d3ff6974e395b4f73cce3c706843"
   },
   {
     "url": "dev-guide/plugin-dev.html",
-    "revision": "19896e50ac2c2a6a875f98d8eb385517"
+    "revision": "61cdc2d8a258efcacc825a6de53f2085"
   },
   {
     "url": "dev-guide/ui-api.html",
-    "revision": "e861b7277b86f4e4a580e80129dbfff4"
+    "revision": "c744cda24576b8f472870f1880f83568"
   },
   {
     "url": "dev-guide/ui-info.html",
-    "revision": "44cef9c5ce436f047b56312b21a013e7"
+    "revision": "ff676e9a2fa112a60ab5b0de8bc87d5b"
   },
   {
     "url": "dev-guide/ui-localization.html",
-    "revision": "d8866e2041f60d9b188dbcfc4f8489be"
+    "revision": "631c066aa8648472e9431b768c650fab"
   },
   {
     "url": "favicon.png",
@@ -351,59 +351,59 @@ self.__precacheManifest = [
   },
   {
     "url": "guide/browser-compatibility.html",
-    "revision": "0980d819007c6d1bbf9ac082e08b252f"
+    "revision": "def869a2141e989dc7ee976b1549a43e"
   },
   {
     "url": "guide/build-targets.html",
-    "revision": "85a164d7763cde6703d44195242accad"
+    "revision": "7f4aa5c2421078d0c58ffeb5d2b3cbd0"
   },
   {
     "url": "guide/cli-service.html",
-    "revision": "71d03bd40e2a617317a10ca65fa7372d"
+    "revision": "91b176b25ba5b5381cded765253c18d6"
   },
   {
     "url": "guide/creating-a-project.html",
-    "revision": "ca63f5728598bc06bc40c80c3363f297"
+    "revision": "ca630a078aaaf65e41e1578999f148e4"
   },
   {
     "url": "guide/css.html",
-    "revision": "ab573f829415aa10d64419f08c0ea21e"
+    "revision": "5b83b70964ff62079a7fae4f2d45771d"
   },
   {
     "url": "guide/deployment.html",
-    "revision": "5f3e108c779e6504f548dbf8cdfbccf4"
+    "revision": "50e3ea334c0cadb1701f922fb5291342"
   },
   {
     "url": "guide/html-and-static-assets.html",
-    "revision": "4873d8c957d72af616875e3eac5631ab"
+    "revision": "f06af45b5016feb3f1cdfdab9864e446"
   },
   {
     "url": "guide/index.html",
-    "revision": "06aef62074e197493018526b2daf5bdf"
+    "revision": "f70cd71721066a80192ce19ab0379caa"
   },
   {
     "url": "guide/installation.html",
-    "revision": "54483eb1e0759aef9b9507d579ee11f0"
+    "revision": "9bf51c2f38ff5078b66d06c5c17da5bd"
   },
   {
     "url": "guide/mode-and-env.html",
-    "revision": "3bf26db4e1d94bdab6b1c743e0e9260c"
+    "revision": "c5ed70dfbd706d85f3a8727f2d6f1ed0"
   },
   {
     "url": "guide/plugins-and-presets.html",
-    "revision": "5d081d968003b88eee5b7935eac9534e"
+    "revision": "7122aec96a73d2fd95ffc699776950d9"
   },
   {
     "url": "guide/prototyping.html",
-    "revision": "a603647d84462fec01211a3c47b78c3a"
+    "revision": "34690ba7aa555a26e6e8db7c63bacf51"
   },
   {
     "url": "guide/troubleshooting.html",
-    "revision": "bd5abe411f96bbfba3841d8ebcfa9a59"
+    "revision": "5d8aff73fa020e7dc1c2363450739982"
   },
   {
     "url": "guide/webpack.html",
-    "revision": "2564714849c50de67f556278ef70d9e7"
+    "revision": "a9b17e0d641c9c6e5bc0b83ab50d366d"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -459,7 +459,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "8f22a54391d0902a21014a4adbe23bfb"
+    "revision": "fa71e66982fdd2427eacb160f25778d0"
   },
   {
     "url": "plugin-search-item.png",
