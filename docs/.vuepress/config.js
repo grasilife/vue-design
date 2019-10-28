@@ -2,7 +2,7 @@
  * @Author: 付国强
  * @Date: 2019-09-05 21:46:07
  * @LastEditors: 付国强
- * @LastEditTime: 2019-10-28 21:26:43
+ * @LastEditTime: 2019-10-28 22:48:16
  * @Description:
  */
 const path = require("path");
@@ -253,6 +253,14 @@ module.exports = {
           ],
           "/componentsDocs/": [
             "/componentsDocs/",
+            "/componentsDocs/getting-started.zh-CN",
+            "/componentsDocs/practical-projects.zh-CN",
+            "/componentsDocs/use-with-create-react-app.zh-CN",
+            "/componentsDocs/customize-theme.zh-CN",
+            "/componentsDocs/changelog",
+            "/componentsDocs/i18n.zh-CN",
+            "/componentsDocs/faq.zh-CN",
+            "/componentsDocs/contributing.zh-CN",
             {
               title: "组件",
               collapsable: false,
