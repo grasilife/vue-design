@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{395:function(n,t,e){},461:function(n,t,e){"use strict";var u=e(395);e.n(u).a},498:function(n,t,e){"use strict";e.r(t);e(461);var u=e(4),i=Object(u.a)({},function(){var n=this.$createElement,t=this._self._c||n;return t("div",[t("el-button",[this._v("默认按钮")])],1)},[],!1,null,null,null);t.default=i.exports}}]);
