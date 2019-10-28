@@ -1,10 +1,25 @@
-# dependencies
+.DS_Store
 node_modules
 docs/.vuepress/dist/
-# logs
-npm-debug.log
-
-# IDE
-.idea
-
 /tests/unit/coverage/
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+dist.zip
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+**/.svn
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
