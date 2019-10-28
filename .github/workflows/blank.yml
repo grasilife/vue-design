@@ -11,7 +11,7 @@ jobs:
               uses: actions/checkout@master
 
             - name: Deploy to GitHub Pages
-              uses: JamesIves/github-pages-deploy-action@2.0.3
+              uses: grasilife/github-pages-deploy-action@master
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   BRANCH: gh-pages
