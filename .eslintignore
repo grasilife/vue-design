@@ -1,6 +1,6 @@
 # dependencies
 node_modules
-
+docs/.vuepress/dist/
 # logs
 npm-debug.log
 
