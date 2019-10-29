@@ -1,22 +1,14 @@
+<!--
+ * @Author: 付国强
+ * @Date: 2019-09-05 21:46:07
+ * @LastEditors: 付国强
+ * @LastEditTime: 2019-10-29 20:14:42
+ * @Description:
+ -->
 <template>
   <div>
     <el-button>默认按钮</el-button>
   </div>
 </template>
 
-<style lang="stylus">
-.bit-sponsor
-  font-weight 600
-  background-color #f3f6f8
-  padding 0.6em 1.2em
-  border-radius 8px
-  display inline-block
-  margin 1em 0 !important
-  a
-    color #999
-  img
-    height 40px
-    margin-left 15px
-  img, span
-    vertical-align middle
-</style>
+<style scoped></style>
