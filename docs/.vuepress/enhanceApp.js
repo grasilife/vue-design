@@ -2,7 +2,7 @@
  * @Author: 付国强
  * @Date: 2019-09-05 21:46:07
  * @LastEditors: 付国强
- * @LastEditTime: 2019-10-29 20:50:54
+ * @LastEditTime: 2019-10-29 21:02:47
  * @Description:
  */
 // 扩展 VuePress 应用
@@ -13,8 +13,8 @@ import ComponentLibrary from "../../src/install";
 import hljs from "highlight.js";
 //样式文件,这里我选的是sublime样式，文件里面还有其他样式可供选择
 import "highlight.js/styles/color-brewer.css";
-import "./public/index.scss";
-import "./public/table.scss";
+import "./styles/index.scss";
+import "./styles/table.scss";
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
   options, // 附加到根实例的一些选项
