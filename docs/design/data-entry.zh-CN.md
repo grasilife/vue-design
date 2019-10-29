@@ -1,11 +1,7 @@
 ---
-category:
-  zh-CN: 模式
-  en-US: Patterns
-order: 9
-title:
-  zh-CN: 数据录入
-  en-US: Data Entry
+category: 模式
+order: 0
+title: 数据录入
 ---
 
 数据录入是获取对象信息的重要交互方式，用户会频繁的增加、修改或删除信息。多种多样的文本录入和选择录入方式帮助用户更加清晰和高效的完成这项体验。设计者应当注意这几点：
