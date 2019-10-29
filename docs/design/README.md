@@ -27,57 +27,7 @@ title: 介绍
 
 我们采用 [React](http://facebook.github.io/react/) 封装了一套 Ant Design 的组件库，也欢迎社区其他框架的实现版本。
 
-```__react
-import { Icon } from 'antd';
 
-const LinkIcon = () => (
-  <Icon type="export" className="outside-link-icon" />
-);
-
-const LinksList = () => (
-  <ul>
-    <li>
-      <a href="/docs/react/introduce" target="_blank">Ant Design of React</a>
-      （官方实现）
-    </li>
-    <li>
-      <a href="http://ng.ant.design" target="_blank">
-        NG-ZORRO - Ant Design of Angular<LinkIcon />
-      </a>
-    </li>
-    <li>
-      <a href="http://ng.mobile.ant.design" target="_blank">
-        NG-ZORRO-MOBILE - Ant Design Mobile of Angular<LinkIcon />
-      </a>
-    </li>
-    <li>
-      <a href="http://vue.ant.design" target="_blank">Ant Design of Vue<LinkIcon /></a>
-    </li>
-    <li>
-      <a href="https://github.com/FE-Driver/vue-beauty" target="_blank">
-        vue-beauty (vue)<LinkIcon />
-      </a>
-    </li>
-    <li>
-      <a href="https://github.com/priornix/antizer" target="_blank">
-        antizer (ClojureScript)<LinkIcon />
-      </a>
-    </li>
-    <li>
-      <a href="https://github.com/idcos/antd-ember" target="_blank">
-        antd-ember<LinkIcon />
-      </a>
-    </li>
-    <li>
-      <a href="https://github.com/zzuu666/antue" target="_blank">
-        antue (vue)<LinkIcon />
-      </a>
-    </li>
-  </ul>
-);
-
-ReactDOM.render(<LinksList />, mountNode);
-```
 
 ## 谁在使用
 

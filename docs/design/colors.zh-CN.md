@@ -26,11 +26,6 @@ Ant Design 系统级色彩体系同样源于『自然』的设计价值观。设
 
 Ant Design 的基础色板共计 120 个颜色，包含 12 个主色以及衍生色。这些颜色基本可以满足中后台设计中对于颜色的需求。
 
-```__react
-import ColorPalettes from '../../site/theme/template/Color/ColorPalettes';
-
-ReactDOM.render(<ColorPalettes />, mountNode);
-```
 
 Ant Design 的色板还具备进一步拓展的能力。经过设计师和程序员的精心调制，结合了色彩自然变化的规律，我们得出了一套色彩生成工具，当有进一步色彩设计需求时，设计者只需按照一定规则定义完毕主色，便可以自动获得一系列完整的衍生色。
 
@@ -40,11 +35,7 @@ Ant Design 的色板还具备进一步拓展的能力。经过设计师和程序
 
 中性色包含了黑、白、灰。在蚂蚁中后台的网页设计中被大量使用到，合理地选择中性色能够令页面信息具备良好的主次关系，助力阅读体验。Ant Design 的中性色板一共包含了从白到黑的 10 个颜色。
 
-```__react
-import Palette from '../../site/theme/template/Color/Palette';
 
-ReactDOM.render(<Palette color={{ name: 'gray' }} direction="horizontal" />, mountNode);
-```
 
 ### 数据可视化色板（敬请期待）
 
@@ -54,11 +45,7 @@ ReactDOM.render(<Palette color={{ name: 'gray' }} direction="horizontal" />, mou
 
 如果上面的色板不能满足你的需求，你可以选择一个主色，Ant Design 的色彩生成算法会为你生成完整的色板。
 
-```__react
-import ColorPaletteTool from '../../site/theme/template/Color/ColorPaletteTool';
 
-ReactDOM.render(<ColorPaletteTool />, mountNode);
-```
 
 ### 在代码中使用色板
 

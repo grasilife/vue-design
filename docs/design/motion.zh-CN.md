@@ -25,37 +25,6 @@ title: 动效
 
 在企业级应用的产品设计中，使用动效和前台类产品有很大的不同，助力交互行为和信息认知的有效性会显得尤为重要，在 Ant Design 设计价值观的基础之上，我们衍生出动效设计的三原则：
 
-```__react
-
-import { Col, Row } from 'antd';
-
-const text = [
-  { title: '自然', img: 'https://gw.alipayobjects.com/zos/rmsportal/LyTPSGknLUlxiVdwMWyu.gif', content: '自然运动规律，保证视觉连惯，让用户感知到动作是成立的' },
-  { title: '高效', img: 'https://gw.alipayobjects.com/zos/rmsportal/SQOZVQVIossbXpzDmihu.gif', content: '尽量节省过渡的时间，快速完成过渡的动画效果' },
-  { title: '克制', img: 'https://gw.alipayobjects.com/zos/rmsportal/OkIXkscKxywYLSrilPIf.gif', content: '做有意义的动效，不去做太多的修饰和干扰用户' },
-];
-
-function Principle() {
-  const childrenToRender = text.map(item => (
-    <Col key={item.title} sm={24} md={8} >
-      <div className="principle">
-        <div><img src={item.img} width="80%" /></div>
-        <h4>{item.title}</h4>
-        <p>{item.content}</p>
-      </div>
-    </Col>
-  ));
-  return (
-    <div className="motion-principle-wrapper">
-      <Row gutter={{ md: 32, sm: 0 }} className="principle-wrapper">
-        {childrenToRender}
-      </Row>
-    </div>
-  );
-}
-
-ReactDOM.render(<Principle />, mountNode);
-```
 
 ### 自然
 
