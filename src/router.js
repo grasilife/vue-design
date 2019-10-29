@@ -1,3 +1,10 @@
+/*
+ * @Author: 付国强
+ * @Date: 2019-09-05 21:46:08
+ * @LastEditors: 付国强
+ * @LastEditTime: 2019-10-29 20:35:27
+ * @Description:
+ */
 import Vue from "vue";
 import Router from "vue-router";
 Vue.use(Router);
@@ -8,22 +15,9 @@ export default new Router({
       path: "/",
       name: "home",
       title: "首页局部",
-      component: () => import("@/views/Home.vue"),
+      component: () => import("@/views/Hellow.vue"),
       redirect: "/home/video",
       children: []
-    },
-    //注册*
-    {
-      path: "/login",
-      name: "login",
-      title: "登录"
-      //   component: () => import("@/views/login/index.vue")
-    },
-    {
-      path: "/register",
-      name: "register",
-      title: "注册",
-      component: () => import("@/views/register/index.vue")
     }
   ]
 });
